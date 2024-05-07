@@ -53,3 +53,6 @@ dos números positivos devuelve el resultado correcto. Se espera que la divisió
 - `testDivision_DivideByZero_ShouldThrowArithmeticException()`: Este método de prueba verifica si se lanza una 
 excepción de ArithmeticException cuando se intenta dividir un número por cero. Se espera que al dividir 10 por 0 se lance una excepción de ArithmeticException.
 
+### 4) Prueba de los tests
+Ejecuto las pruebas y compruebo que funcionan
+![Texto alternativo](Imagenes/Test.png)

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.MoneyTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-05-07T23:12:24" hostname="david-TUF-GAMING-FX504GE-FX80GE" time="0.046">
+  <properties/>
+  <testcase name="constructorShouldSetAmountAndCurrency()" classname="org.example.MoneyTest" time="0.042"/>
+  <testcase name="shouldReturnFalseIfNotEqual()" classname="org.example.MoneyTest" time="0.001"/>
+  <testcase name="shouldReturnTrueIfEqual()" classname="org.example.MoneyTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
