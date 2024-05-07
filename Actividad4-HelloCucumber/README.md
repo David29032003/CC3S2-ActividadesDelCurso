@@ -1,10 +1,8 @@
 # Actividad 4 - HelloCucumber
 
 ## Organizacion de la actividad
-
+![Texto alternativo](Imagenes/Folder.png)
 Descargo el proyecto Java que de encontraba en el repositorio del curso para posteriormente abrir el directorio "ACTIVIDAD4-HELLOCUCUMBER"
-
-
 
 ## Entendiendo la Actividad
 La actividad consiste en ejecutar scripts de Cucumber a traves de Java usando Gradle. Para ello debo extender el 
