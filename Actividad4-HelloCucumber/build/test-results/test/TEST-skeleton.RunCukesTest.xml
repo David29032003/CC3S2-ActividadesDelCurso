@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="skeleton.RunCukesTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-07T15:32:59" hostname="david-TUF-GAMING-FX504GE-FX80GE" time="0.075">
+  <properties/>
+  <testcase name="eaten few cukes and no growl" classname="skeleton.RunCukesTest" time="0.075"/>
+  <system-out><![CDATA[I'm eating 5 cukes!
+I ate 5 cucumbers.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
