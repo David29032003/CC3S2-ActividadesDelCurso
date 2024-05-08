@@ -23,14 +23,14 @@ En esta prueba se comprueba la efectividad del método **`guess()`** pertenecien
 
 **2.** Ahora pasemos a `**verde**` agregando el código de producción para que pase la prueba:
 
-![Untitled](images/Untitled%202.png)
+![Untitled](images/CAP7.png)
 
 Utilizamos el (IDE) para facilitar la creación de la clase Score:
 
 - Para abordar el nuevo comportamiento evaluado por la prueba oneCorrectLetter(), hemos incluido el código anteriormente mencionado. En lugar de que el método `**assess ()**` siempre retorne Letter.INCORRECT como lo hacía anteriormente, la nueva prueba ha señalado una nueva dirección. Ahora, el método **`assess()`** debe ser capaz de devolver el puntaje correcto cuando se adivina una letra correctamente.
 - Para lograr este objetivo, hemos añadido un atributo llamado resultado para almacenar el último puntaje, código para devolver dicho resultado en el método **`letter()`**, y código en el método **`assess()`** para verificar si la primera letra de la adivinanza coincide con la primera letra de la palabra. Si hemos realizado correctamente estos cambios, ambas pruebas deberían pasar sin problemas ahora.
 
-![Untitled](images/Untitled%203.png)
+![Untitled](images/CAP8.png)
 
 Pregunta: Ejecuta todas las pruebas para ver cómo lo estamos haciendo. ¿Qué encuentras aquí?.
 
@@ -40,7 +40,8 @@ Vemos que el test ha pasado correctamente (`**VERDE**`).
 
 **3.** Vamos a refactorizar(`azul`). Extrae un método `isCorrectLetter()` para mayor claridad:
 
-![Untitled](images/Untitled%205.png)
+![Untitled](images/CAP1.png)
+![Untitled](images/CAP2.png)
 
 ![Untitled](images/Untitled%206.png)
 
@@ -57,7 +58,7 @@ La siguiente mejora que podríamos considerar implica un cambio en el diseño. V
 
 **4.** Cambiemos cómo especificamos la posición de la letra para verificar en el método **`assess()`**
 
-![Untitled](images/Untitled%209.png)
+![Untitled](images/CAP8.png)
 
 ### **2°Ciclo TDD: Avanzando en el diseño con combinaciones de dos letras**
 
@@ -71,11 +72,11 @@ La prueba falla!
 
 **2.** Agreguemos el código inicial para verificar todas las letras en nuestra adivinación:
 
-![Untitled](images/Untitled%2012.png)
+![Untitled](images/CAP10.png)
 
 **3.** Agreguemos código para detectar cuándo una letra correcta está en la posición incorrecta:
 
-![Untitled](images/Untitled%2013.png)
+![Untitled](images/CAP11.png)
 
 ![Untitled](images/Untitled%2014.png)
 
@@ -102,11 +103,11 @@ Ejecutemos la prueba , en efecto la prueba pasa  (**`Verde`**)
 
 ![Untitled](images/Untitled%2019.png)
 
-![Untitled](images/Untitled%2020.png)
+![Untitled](images/CAP15.png)
 
 1.  Extraigamos la lógica dentro del cuerpo del ciclo en un método scoreFor():**`(AZUL)`**
 
-![Untitled](images/Untitled%2021.png)
+![Untitled](images/CAP13.png)
 
 El código anterior ahora es mucho más legible. El contenido del método scoreFor() ahora presenta de manera concisa las reglas para asignar puntajes a cada letra. Hemos sustituido la estructura if-else-if por una estructura if-return más sencilla. Determinamos el puntaje y salimos del método de inmediato.
 
@@ -118,7 +119,7 @@ El siguiente trabajo es limpiar el código de prueba **`(AZUL)`**
 
 Finalmente nuestro codigo de prueba es el siguiente:
 
-![Untitled](images/Untitled%2024.png)
+![Untitled](images/CAP4.png)
 
 Ahora toca verificar que todo sigue en verde y no hayamos roto nada ...
 

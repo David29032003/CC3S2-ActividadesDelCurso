@@ -1,5 +1,5 @@
 package com.wordz.domain;
 
 public enum Letter {
-    INCORRECT
+    public static Object INCORRECT;
 }

@@ -35,7 +35,7 @@ Ejecutamos la prueba y efectivamente, la prueba fallo :
 
 ![Untitled](images/Untitled%202.png)
 
-Con ayuda del IDE creamos la clase `**FootballTeam` ,** su constructor y el metodo **`getGamesWon()`** , el minimo codigo para que la prueba pase (verde).
+Con ayuda del IDE creamos la clase `FootballTeam`  su constructor y el metodo **`getGamesWon()`** , el minimo codigo para que la prueba pase (verde).
 
 ![Untitled](images/Untitled%203.png)
 
@@ -63,7 +63,7 @@ La prueba ha pasado , sin embargo eso no es suficiente.Antes de escribir más pr
 
 Lo mínimo que deberíamos hacer es deshacernos del número mágico 3 - por ejemplo, introduciendo una variable **`THREE_GAMES_WON`**.
 
-![Untitled](images/Untitled%2010.png)
+![Untitled](images/CAP5.png)
 
 El cambio fue trivial, y no hay forma de que pudiera romper la prueba.
 
@@ -93,7 +93,7 @@ Nuestra prueba puede limpiarse: ya que  no hay necesidad de que el primer métod
 
 Por ello eliminamos la primera prueba
 
-![Untitled](images/Untitled%2015.png)
+![Untitled](images/CAP6.png)
 
 Ejecutamos de nuevo la suit de pruebas ,sigue verde !
 

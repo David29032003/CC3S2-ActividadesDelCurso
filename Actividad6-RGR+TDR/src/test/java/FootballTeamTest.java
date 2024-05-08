@@ -6,8 +6,17 @@ import org.junit.jupiter.params.provider.ValueSource;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThatExceptionOfType;
 
-public class FootballTeamTest2 {
+public class FootballTeamTest {
 
+    @ParameterizedTest
+    @ValueSource(ints = {0,1,3,10})
+    void constructorShouldSetGamesWon(int nbOfGamesWon){
+        FootballTeam team = new FootballTeam(nbOfGamesWon);
+        assertThat(team.getGamesWon())
+             .as("number of games won")
+             .isEqualTo(nbOfGamesWon);
+    }
+/* 
    @ParameterizedTest
    @ValueSource(ints = {0,1,3,10}) //arrange the values we want to test
    void constructorShouldSetGamesWon(int nbOfGamesWon) {
@@ -16,7 +25,7 @@ public class FootballTeamTest2 {
        assertThat(team.getGamesWon())
                .as("number of games won")
                .isEqualTo(nbOfGamesWon);
-   }
+   }*/
 
    @ParameterizedTest
    @ValueSource(ints = {-10,-3,-1}) //arrange the values we want to test
