@@ -1,6 +1,4 @@
 
-S
-#src/test/java/FootballTeamTest.java,c\3\c3650641790d734516341866dddad279cf452a98
 \
 ,src/main/java/FootballTeam/FootballTeam.java,4\b\4b77b031f458f126f58aad4e773cb30b45fef604
 ?
