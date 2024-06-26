@@ -1,0 +1,5 @@
+
+Œ
+java:S1488&"jImmediately return this expression instead of assigning it to the temporary variable "filteredAstronauts".(³¨ªÎùÿÿÿÿ8ƒß–Í‚2
+—
+java:S6204("zReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()' and ensure that the list is unmodified.(ª™¨¹8¬ß–Í‚2

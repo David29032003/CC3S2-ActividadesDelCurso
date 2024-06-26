@@ -1,0 +1,9 @@
+rootProject.name = 'Actividad-DockerKubernetesYMicroservicios'
+include 'game-service'
+include 'map-service'
+include 'Enemy-service'
+include 'Tower-service'
+include 'Player-service'
+include 'Fake-service'
+include 'Wave-service'
+

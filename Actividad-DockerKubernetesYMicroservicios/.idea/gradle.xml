@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Enemy-service" />
+            <option value="$PROJECT_DIR$/Fake-service" />
+            <option value="$PROJECT_DIR$/Player-service" />
+            <option value="$PROJECT_DIR$/Tower-service" />
+            <option value="$PROJECT_DIR$/Wave-service" />
+            <option value="$PROJECT_DIR$/game-service" />
+            <option value="$PROJECT_DIR$/map-service" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
